@@ -17,7 +17,7 @@ from PIL import Image
 from utils import *
 
 N_CLASSES = 20
-PHASE = 'train'
+PHASE = 'test'
 DATA_DIR = './datasets/fashion'
 LIST_PATH = './datasets/fashion/list/' + PHASE + '.txt'
 with open(LIST_PATH, 'r') as f:
